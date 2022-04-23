@@ -12,7 +12,7 @@ import spock.lang.Specification
 import spock.mock.DetachedMockFactory
 
 @WebMvcTest(controllers = [ApplicationServiceController.class])
-class ApplicationServiceControllerSpec extends Specification {
+class ApplicationServiceControllerIT extends Specification {
 
     @Autowired
     private MockMvc mvc;

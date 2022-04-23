@@ -7,7 +7,7 @@ import org.springframework.core.env.Environment
 import spock.lang.Specification
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)
-class AppSpec extends Specification {
+class AppSpecIT extends Specification {
 
     @Autowired
     private Environment environment;
